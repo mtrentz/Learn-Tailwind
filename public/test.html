@@ -10,7 +10,10 @@
   <body>
     <div
       class="
-        grid grid-flow-row
+        flex flex-wrap
+        gap-8
+        m-4
+        justify-center
         auto-rows-max
         antialiased
         text-gray-800
@@ -19,7 +22,16 @@
     >
       <!-- Card start -->
       <div
-        class="bg-white w-52 h-56 rounded-2xl overflow-hidden border shadow-md"
+        class="
+          bg-white
+          w-52
+          h-56
+          rounded-2xl
+          overflow-hidden
+          border
+          shadow-md
+          flex-none
+        "
       >
         <!-- top part -->
         <div class="h-1/2 bg-white">
@@ -67,53 +79,16 @@
       <!-- Card end -->
       <!-- Card start -->
       <div
-        class="bg-white w-52 h-56 rounded-2xl overflow-hidden border shadow-md"
-      >
-        <!-- top part -->
-        <div class="h-1/2 bg-white">
-          <div class="flex items-center h-24 bg-mozaic-bg bg-contain">
-            <img
-              class="
-                w-28
-                h-28
-                m-auto
-                mt-4
-                border
-                bg-white
-                rounded-full
-                object-contain
-              "
-              src="logos/airflow.png"
-              alt="Service Logo"
-            />
-            <!-- </div> -->
-          </div>
-        </div>
-        <!-- bottom part -->
-        <div class="flex flex-col content-center space-y-3">
-          <p class="font-semibold text-center text-lg mt-6">Apache Airflow</p>
-          <button
-            class="
-              h-8
-              w-32
-              self-center
-              bg-blue-500
-              text-gray-100 text-md text-center
-              align-middle
-              rounded-lg
-              focus:border-4
-              border-blue-300
-              font-semibold
-            "
-          >
-            Ir ao serviço
-          </button>
-        </div>
-      </div>
-      <!-- Card end -->
-      <!-- Card start -->
-      <div
-        class="bg-white w-52 h-56 rounded-2xl overflow-hidden border shadow-md"
+        class="
+          bg-white
+          w-52
+          h-56
+          rounded-2xl
+          overflow-hidden
+          border
+          shadow-md
+          flex-none
+        "
       >
         <!-- top part -->
         <div class="h-1/2 bg-white">
@@ -138,6 +113,61 @@
         <!-- bottom part -->
         <div class="flex flex-col content-center space-y-3">
           <p class="font-semibold text-center text-lg mt-6">Portainer</p>
+          <button
+            class="
+              h-8
+              w-32
+              self-center
+              bg-blue-500
+              text-gray-100 text-md text-center
+              align-middle
+              rounded-lg
+              focus:border-4
+              border-blue-300
+              font-semibold
+            "
+          >
+            Ir ao serviço
+          </button>
+        </div>
+      </div>
+      <!-- Card end -->
+      <!-- Card start -->
+      <div
+        class="
+          bg-white
+          w-52
+          h-56
+          rounded-2xl
+          overflow-hidden
+          border
+          shadow-md
+          flex-none
+        "
+      >
+        <!-- top part -->
+        <div class="h-1/2 bg-white">
+          <div class="flex items-center h-24 bg-mozaic-bg bg-contain">
+            <img
+              class="
+                w-28
+                h-28
+                m-auto
+                mt-4
+                border
+                bg-white
+                rounded-full
+                object-contain
+              "
+              src="logos/airflow.png"
+              alt="Service Logo"
+            />
+            <!-- </div> -->
+          </div>
+        </div>
+        <!-- bottom part -->
+        <div class="flex flex-col content-center space-y-3">
+          <p class="font-semibold text-center text-lg mt-6">Apache Airflow</p>
           <button
             class="
               h-8
